@@ -16,7 +16,7 @@ import jakarta.persistence.ManyToMany;
 
 public class Test {
 	public static void main(final String[] args) throws SQLException {
-		Test t = new Test();
+		Test t = new Test();System.out.println(Test.class.getResource("import.sql"));
 		t.work("jdbc:hsqldb:mem:hogwarts");
 	}
 
